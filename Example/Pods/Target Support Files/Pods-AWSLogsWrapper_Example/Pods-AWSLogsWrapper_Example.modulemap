@@ -1,0 +1,6 @@
+framework module Pods_AWSLogsWrapper_Example {
+  umbrella header "Pods-AWSLogsWrapper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

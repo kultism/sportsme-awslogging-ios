@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AWSLogsWrapper_Example' do
+  pod 'AWSLogsWrapper', :path => '../'
+
+  target 'AWSLogsWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

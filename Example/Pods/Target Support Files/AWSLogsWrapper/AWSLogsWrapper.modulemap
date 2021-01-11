@@ -1,0 +1,6 @@
+framework module AWSLogsWrapper {
+  umbrella header "AWSLogsWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,37 @@
+PODS:
+  - AWSCore (2.13.2)
+  - AWSLogs (2.13.2):
+    - AWSCore (= 2.13.2)
+  - AWSLogsWrapper (1.0.0):
+    - AWSLogs (~> 2.13.1)
+    - RealmSwift (~> 4.4.0)
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+
+DEPENDENCIES:
+  - AWSLogsWrapper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSLogs
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  AWSLogsWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWSCore: 8e878a5b1b99cdf3d7df0c1c86be0bfcd6294c11
+  AWSLogs: bfb76d84cf9dca355e681269ae3c75002e7fba7c
+  AWSLogsWrapper: 1e37c5b3ee8deedb7e7a4c5afd6863234d1263ab
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+
+PODFILE CHECKSUM: 65b17e3e8cea758ae0af3805853eaa5ce0ccfe20
+
+COCOAPODS: 1.9.1
